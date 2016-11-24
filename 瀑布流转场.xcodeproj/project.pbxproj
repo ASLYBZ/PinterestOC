@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D38CA1C1DE59BD7002C31A9 /* Zara.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D38CA1B1DE59BD7002C31A9 /* Zara.storyboard */; };
+		2D38CA1F1DE5AF96002C31A9 /* NTWaterfallViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D38CA1E1DE5AF96002C31A9 /* NTWaterfallViewCell.m */; };
+		2D38CA221DE5B24B002C31A9 /* NTHorizontalPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D38CA211DE5B24B002C31A9 /* NTHorizontalPageViewController.m */; };
+		2D38CA251DE5BCA5002C31A9 /* UICollectionView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D38CA241DE5BCA5002C31A9 /* UICollectionView+Extension.m */; };
+		2D38CA281DE5BF2C002C31A9 /* NTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D38CA271DE5BF2C002C31A9 /* NTNavigationController.m */; };
+		2D38CA2E1DE685B3002C31A9 /* NTHorizontalPageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D38CA2D1DE685B3002C31A9 /* NTHorizontalPageViewCell.m */; };
+		2D38CA321DE6CAD1002C31A9 /* NTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D38CA311DE6CAD1002C31A9 /* NTTableViewCell.m */; };
+		2D38CA421DE6CF68002C31A9 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D38CA341DE6CF68002C31A9 /* 0.jpg */; };
+		2D38CA431DE6CF68002C31A9 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D38CA351DE6CF68002C31A9 /* 1.jpg */; };
+		2D38CA441DE6CF68002C31A9 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D38CA361DE6CF68002C31A9 /* 10.jpg */; };
+		2D38CA451DE6CF68002C31A9 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D38CA371DE6CF68002C31A9 /* 11.jpg */; };
+		2D38CA461DE6CF68002C31A9 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D38CA381DE6CF68002C31A9 /* 12.jpg */; };
+		2D38CA471DE6CF68002C31A9 /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D38CA391DE6CF68002C31A9 /* 13.jpg */; };
+		2D38CA481DE6CF68002C31A9 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D38CA3A1DE6CF68002C31A9 /* 2.jpg */; };
+		2D38CA491DE6CF68002C31A9 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D38CA3B1DE6CF68002C31A9 /* 3.jpg */; };
+		2D38CA4A1DE6CF68002C31A9 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D38CA3C1DE6CF68002C31A9 /* 4.jpg */; };
+		2D38CA4B1DE6CF68002C31A9 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D38CA3D1DE6CF68002C31A9 /* 5.jpg */; };
+		2D38CA4C1DE6CF68002C31A9 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D38CA3E1DE6CF68002C31A9 /* 6.jpg */; };
+		2D38CA4D1DE6CF68002C31A9 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D38CA3F1DE6CF68002C31A9 /* 7.jpg */; };
+		2D38CA4E1DE6CF68002C31A9 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D38CA401DE6CF68002C31A9 /* 8.jpg */; };
+		2D38CA4F1DE6CF68002C31A9 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D38CA411DE6CF68002C31A9 /* 9.jpg */; };
+		2DB8B7D01DD476E8009D4632 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8B7CF1DD476E8009D4632 /* main.m */; };
+		2DB8B7D31DD476E8009D4632 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8B7D21DD476E8009D4632 /* AppDelegate.m */; };
+		2DB8B7D61DD476E8009D4632 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8B7D51DD476E8009D4632 /* ViewController.m */; };
+		2DB8B7DB1DD476E8009D4632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB8B7DA1DD476E8009D4632 /* Assets.xcassets */; };
+		2DB8B7DE1DD476E8009D4632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB8B7DC1DD476E8009D4632 /* LaunchScreen.storyboard */; };
+		2DB8B7E91DD476E8009D4632 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8B7E81DD476E8009D4632 /* _____Tests.m */; };
+		2DB8B7F41DD476E8009D4632 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8B7F31DD476E8009D4632 /* _____UITests.m */; };
+		2DB8B8031DD47E37009D4632 /* CHTCollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8B8021DD47E37009D4632 /* CHTCollectionViewWaterfallLayout.m */; };
+		2DB8B8061DD47E8F009D4632 /* NTWaterfallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8B8051DD47E8F009D4632 /* NTWaterfallViewController.m */; };
+		2DB8B80F1DD55F15009D4632 /* NavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8B80E1DD55F15009D4632 /* NavigationControllerDelegate.m */; };
+		2DB8B8171DD572BC009D4632 /* NTTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8B8161DD572BC009D4632 /* NTTransition.m */; };
+		2DB8B81C1DD57539009D4632 /* NavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8B81B1DD57539009D4632 /* NavVC.m */; };
+		2DB8B81F1DD57568009D4632 /* PlayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8B81E1DD57568009D4632 /* PlayVC.m */; };
+		2DB8B8211DD57955009D4632 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB8B8201DD57955009D4632 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DB8B7E51DD476E8009D4632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DB8B7C31DD476E8009D4632 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DB8B7CA1DD476E8009D4632;
+			remoteInfo = "瀑布流转场";
+		};
+		2DB8B7F01DD476E8009D4632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DB8B7C31DD476E8009D4632 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DB8B7CA1DD476E8009D4632;
+			remoteInfo = "瀑布流转场";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D38CA1B1DE59BD7002C31A9 /* Zara.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Zara.storyboard; sourceTree = "<group>"; };
+		2D38CA1D1DE5AF96002C31A9 /* NTWaterfallViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTWaterfallViewCell.h; sourceTree = "<group>"; };
+		2D38CA1E1DE5AF96002C31A9 /* NTWaterfallViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTWaterfallViewCell.m; sourceTree = "<group>"; };
+		2D38CA201DE5B24B002C31A9 /* NTHorizontalPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTHorizontalPageViewController.h; sourceTree = "<group>"; };
+		2D38CA211DE5B24B002C31A9 /* NTHorizontalPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTHorizontalPageViewController.m; sourceTree = "<group>"; };
+		2D38CA231DE5BCA5002C31A9 /* UICollectionView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+Extension.h"; sourceTree = "<group>"; };
+		2D38CA241DE5BCA5002C31A9 /* UICollectionView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+Extension.m"; sourceTree = "<group>"; };
+		2D38CA261DE5BF2C002C31A9 /* NTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTNavigationController.h; sourceTree = "<group>"; };
+		2D38CA271DE5BF2C002C31A9 /* NTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTNavigationController.m; sourceTree = "<group>"; };
+		2D38CA2A1DE67E7D002C31A9 /* NTTransitionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTTransitionProtocol.h; sourceTree = "<group>"; };
+		2D38CA2C1DE685B3002C31A9 /* NTHorizontalPageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTHorizontalPageViewCell.h; sourceTree = "<group>"; };
+		2D38CA2D1DE685B3002C31A9 /* NTHorizontalPageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTHorizontalPageViewCell.m; sourceTree = "<group>"; };
+		2D38CA301DE6CAD1002C31A9 /* NTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTTableViewCell.h; sourceTree = "<group>"; };
+		2D38CA311DE6CAD1002C31A9 /* NTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTTableViewCell.m; sourceTree = "<group>"; };
+		2D38CA341DE6CF68002C31A9 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		2D38CA351DE6CF68002C31A9 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		2D38CA361DE6CF68002C31A9 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		2D38CA371DE6CF68002C31A9 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		2D38CA381DE6CF68002C31A9 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		2D38CA391DE6CF68002C31A9 /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
+		2D38CA3A1DE6CF68002C31A9 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		2D38CA3B1DE6CF68002C31A9 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		2D38CA3C1DE6CF68002C31A9 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		2D38CA3D1DE6CF68002C31A9 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		2D38CA3E1DE6CF68002C31A9 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		2D38CA3F1DE6CF68002C31A9 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		2D38CA401DE6CF68002C31A9 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		2D38CA411DE6CF68002C31A9 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		2DB8B7CB1DD476E8009D4632 /* 瀑布流转场.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "瀑布流转场.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB8B7CF1DD476E8009D4632 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DB8B7D11DD476E8009D4632 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2DB8B7D21DD476E8009D4632 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DB8B7D41DD476E8009D4632 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2DB8B7D51DD476E8009D4632 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2DB8B7DA1DD476E8009D4632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DB8B7DD1DD476E8009D4632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DB8B7DF1DD476E8009D4632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DB8B7E41DD476E8009D4632 /* 瀑布流转场Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "瀑布流转场Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB8B7E81DD476E8009D4632 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		2DB8B7EA1DD476E8009D4632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DB8B7EF1DD476E8009D4632 /* 瀑布流转场UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "瀑布流转场UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB8B7F31DD476E8009D4632 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		2DB8B7F51DD476E8009D4632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DB8B8011DD47E37009D4632 /* CHTCollectionViewWaterfallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTCollectionViewWaterfallLayout.h; sourceTree = "<group>"; };
+		2DB8B8021DD47E37009D4632 /* CHTCollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTCollectionViewWaterfallLayout.m; sourceTree = "<group>"; };
+		2DB8B8041DD47E8F009D4632 /* NTWaterfallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTWaterfallViewController.h; sourceTree = "<group>"; };
+		2DB8B8051DD47E8F009D4632 /* NTWaterfallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTWaterfallViewController.m; sourceTree = "<group>"; };
+		2DB8B80D1DD55F15009D4632 /* NavigationControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationControllerDelegate.h; sourceTree = "<group>"; };
+		2DB8B80E1DD55F15009D4632 /* NavigationControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationControllerDelegate.m; sourceTree = "<group>"; };
+		2DB8B8101DD56352009D4632 /* 瀑布流转场-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "瀑布流转场-Bridging-Header.h"; sourceTree = "<group>"; };
+		2DB8B8151DD572BC009D4632 /* NTTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTTransition.h; sourceTree = "<group>"; };
+		2DB8B8161DD572BC009D4632 /* NTTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTTransition.m; sourceTree = "<group>"; };
+		2DB8B81A1DD57539009D4632 /* NavVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavVC.h; sourceTree = "<group>"; };
+		2DB8B81B1DD57539009D4632 /* NavVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavVC.m; sourceTree = "<group>"; };
+		2DB8B81D1DD57568009D4632 /* PlayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayVC.h; sourceTree = "<group>"; };
+		2DB8B81E1DD57568009D4632 /* PlayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayVC.m; sourceTree = "<group>"; };
+		2DB8B8201DD57955009D4632 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DB8B7C81DD476E8009D4632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB8B7E11DD476E8009D4632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB8B7EC1DD476E8009D4632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D38CA2B1DE68596002C31A9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2D38CA1D1DE5AF96002C31A9 /* NTWaterfallViewCell.h */,
+				2D38CA1E1DE5AF96002C31A9 /* NTWaterfallViewCell.m */,
+				2D38CA2C1DE685B3002C31A9 /* NTHorizontalPageViewCell.h */,
+				2D38CA2D1DE685B3002C31A9 /* NTHorizontalPageViewCell.m */,
+				2D38CA301DE6CAD1002C31A9 /* NTTableViewCell.h */,
+				2D38CA311DE6CAD1002C31A9 /* NTTableViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		2D38CA2F1DE6909C002C31A9 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				2DB8B8151DD572BC009D4632 /* NTTransition.h */,
+				2DB8B8161DD572BC009D4632 /* NTTransition.m */,
+			);
+			name = Transition;
+			sourceTree = "<group>";
+		};
+		2D38CA331DE6CF68002C31A9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2D38CA341DE6CF68002C31A9 /* 0.jpg */,
+				2D38CA351DE6CF68002C31A9 /* 1.jpg */,
+				2D38CA361DE6CF68002C31A9 /* 10.jpg */,
+				2D38CA371DE6CF68002C31A9 /* 11.jpg */,
+				2D38CA381DE6CF68002C31A9 /* 12.jpg */,
+				2D38CA391DE6CF68002C31A9 /* 13.jpg */,
+				2D38CA3A1DE6CF68002C31A9 /* 2.jpg */,
+				2D38CA3B1DE6CF68002C31A9 /* 3.jpg */,
+				2D38CA3C1DE6CF68002C31A9 /* 4.jpg */,
+				2D38CA3D1DE6CF68002C31A9 /* 5.jpg */,
+				2D38CA3E1DE6CF68002C31A9 /* 6.jpg */,
+				2D38CA3F1DE6CF68002C31A9 /* 7.jpg */,
+				2D38CA401DE6CF68002C31A9 /* 8.jpg */,
+				2D38CA411DE6CF68002C31A9 /* 9.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		2DB8B7C21DD476E8009D4632 = {
+			isa = PBXGroup;
+			children = (
+				2DB8B7CD1DD476E8009D4632 /* 瀑布流转场 */,
+				2DB8B7E71DD476E8009D4632 /* 瀑布流转场Tests */,
+				2DB8B7F21DD476E8009D4632 /* 瀑布流转场UITests */,
+				2DB8B7CC1DD476E8009D4632 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DB8B7CC1DD476E8009D4632 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DB8B7CB1DD476E8009D4632 /* 瀑布流转场.app */,
+				2DB8B7E41DD476E8009D4632 /* 瀑布流转场Tests.xctest */,
+				2DB8B7EF1DD476E8009D4632 /* 瀑布流转场UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DB8B7CD1DD476E8009D4632 /* 瀑布流转场 */ = {
+			isa = PBXGroup;
+			children = (
+				2DB8B8191DD57503009D4632 /* Main */,
+				2DB8B8181DD574E0009D4632 /* New Group */,
+				2DB8B7D11DD476E8009D4632 /* AppDelegate.h */,
+				2DB8B7D21DD476E8009D4632 /* AppDelegate.m */,
+				2DB8B7D41DD476E8009D4632 /* ViewController.h */,
+				2DB8B7D51DD476E8009D4632 /* ViewController.m */,
+				2DB8B7DA1DD476E8009D4632 /* Assets.xcassets */,
+				2DB8B7DC1DD476E8009D4632 /* LaunchScreen.storyboard */,
+				2DB8B7DF1DD476E8009D4632 /* Info.plist */,
+				2DB8B7CE1DD476E8009D4632 /* Supporting Files */,
+				2DB8B8101DD56352009D4632 /* 瀑布流转场-Bridging-Header.h */,
+			);
+			path = "瀑布流转场";
+			sourceTree = "<group>";
+		};
+		2DB8B7CE1DD476E8009D4632 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D38CA331DE6CF68002C31A9 /* images */,
+				2DB8B7CF1DD476E8009D4632 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DB8B7E71DD476E8009D4632 /* 瀑布流转场Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2DB8B7E81DD476E8009D4632 /* _____Tests.m */,
+				2DB8B7EA1DD476E8009D4632 /* Info.plist */,
+			);
+			path = "瀑布流转场Tests";
+			sourceTree = "<group>";
+		};
+		2DB8B7F21DD476E8009D4632 /* 瀑布流转场UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DB8B7F31DD476E8009D4632 /* _____UITests.m */,
+				2DB8B7F51DD476E8009D4632 /* Info.plist */,
+			);
+			path = "瀑布流转场UITests";
+			sourceTree = "<group>";
+		};
+		2DB8B8131DD56894009D4632 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				2D38CA2A1DE67E7D002C31A9 /* NTTransitionProtocol.h */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		2DB8B8181DD574E0009D4632 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				2D38CA2F1DE6909C002C31A9 /* Transition */,
+				2D38CA2B1DE68596002C31A9 /* Cell */,
+				2DB8B8041DD47E8F009D4632 /* NTWaterfallViewController.h */,
+				2DB8B8051DD47E8F009D4632 /* NTWaterfallViewController.m */,
+				2D38CA261DE5BF2C002C31A9 /* NTNavigationController.h */,
+				2D38CA271DE5BF2C002C31A9 /* NTNavigationController.m */,
+				2D38CA201DE5B24B002C31A9 /* NTHorizontalPageViewController.h */,
+				2D38CA211DE5B24B002C31A9 /* NTHorizontalPageViewController.m */,
+				2D38CA231DE5BCA5002C31A9 /* UICollectionView+Extension.h */,
+				2D38CA241DE5BCA5002C31A9 /* UICollectionView+Extension.m */,
+				2DB8B8131DD56894009D4632 /* Protocol */,
+				2DB8B8011DD47E37009D4632 /* CHTCollectionViewWaterfallLayout.h */,
+				2DB8B8021DD47E37009D4632 /* CHTCollectionViewWaterfallLayout.m */,
+				2DB8B80D1DD55F15009D4632 /* NavigationControllerDelegate.h */,
+				2DB8B80E1DD55F15009D4632 /* NavigationControllerDelegate.m */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		2DB8B8191DD57503009D4632 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2DB8B8201DD57955009D4632 /* Main.storyboard */,
+				2D38CA1B1DE59BD7002C31A9 /* Zara.storyboard */,
+				2DB8B81A1DD57539009D4632 /* NavVC.h */,
+				2DB8B81B1DD57539009D4632 /* NavVC.m */,
+				2DB8B81D1DD57568009D4632 /* PlayVC.h */,
+				2DB8B81E1DD57568009D4632 /* PlayVC.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DB8B7CA1DD476E8009D4632 /* 瀑布流转场 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DB8B7F81DD476E8009D4632 /* Build configuration list for PBXNativeTarget "瀑布流转场" */;
+			buildPhases = (
+				2DB8B7C71DD476E8009D4632 /* Sources */,
+				2DB8B7C81DD476E8009D4632 /* Frameworks */,
+				2DB8B7C91DD476E8009D4632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "瀑布流转场";
+			productName = "瀑布流转场";
+			productReference = 2DB8B7CB1DD476E8009D4632 /* 瀑布流转场.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DB8B7E31DD476E8009D4632 /* 瀑布流转场Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DB8B7FB1DD476E8009D4632 /* Build configuration list for PBXNativeTarget "瀑布流转场Tests" */;
+			buildPhases = (
+				2DB8B7E01DD476E8009D4632 /* Sources */,
+				2DB8B7E11DD476E8009D4632 /* Frameworks */,
+				2DB8B7E21DD476E8009D4632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DB8B7E61DD476E8009D4632 /* PBXTargetDependency */,
+			);
+			name = "瀑布流转场Tests";
+			productName = "瀑布流转场Tests";
+			productReference = 2DB8B7E41DD476E8009D4632 /* 瀑布流转场Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DB8B7EE1DD476E8009D4632 /* 瀑布流转场UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DB8B7FE1DD476E8009D4632 /* Build configuration list for PBXNativeTarget "瀑布流转场UITests" */;
+			buildPhases = (
+				2DB8B7EB1DD476E8009D4632 /* Sources */,
+				2DB8B7EC1DD476E8009D4632 /* Frameworks */,
+				2DB8B7ED1DD476E8009D4632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DB8B7F11DD476E8009D4632 /* PBXTargetDependency */,
+			);
+			name = "瀑布流转场UITests";
+			productName = "瀑布流转场UITests";
+			productReference = 2DB8B7EF1DD476E8009D4632 /* 瀑布流转场UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DB8B7C31DD476E8009D4632 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "王卫亮";
+				TargetAttributes = {
+					2DB8B7CA1DD476E8009D4632 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2NKGXFLX4U;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					2DB8B7E31DD476E8009D4632 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2NKGXFLX4U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2DB8B7CA1DD476E8009D4632;
+					};
+					2DB8B7EE1DD476E8009D4632 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2NKGXFLX4U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2DB8B7CA1DD476E8009D4632;
+					};
+				};
+			};
+			buildConfigurationList = 2DB8B7C61DD476E8009D4632 /* Build configuration list for PBXProject "瀑布流转场" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DB8B7C21DD476E8009D4632;
+			productRefGroup = 2DB8B7CC1DD476E8009D4632 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DB8B7CA1DD476E8009D4632 /* 瀑布流转场 */,
+				2DB8B7E31DD476E8009D4632 /* 瀑布流转场Tests */,
+				2DB8B7EE1DD476E8009D4632 /* 瀑布流转场UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DB8B7C91DD476E8009D4632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D38CA481DE6CF68002C31A9 /* 2.jpg in Resources */,
+				2D38CA1C1DE59BD7002C31A9 /* Zara.storyboard in Resources */,
+				2D38CA441DE6CF68002C31A9 /* 10.jpg in Resources */,
+				2D38CA491DE6CF68002C31A9 /* 3.jpg in Resources */,
+				2D38CA461DE6CF68002C31A9 /* 12.jpg in Resources */,
+				2D38CA421DE6CF68002C31A9 /* 0.jpg in Resources */,
+				2DB8B8211DD57955009D4632 /* Main.storyboard in Resources */,
+				2D38CA471DE6CF68002C31A9 /* 13.jpg in Resources */,
+				2D38CA431DE6CF68002C31A9 /* 1.jpg in Resources */,
+				2D38CA4F1DE6CF68002C31A9 /* 9.jpg in Resources */,
+				2D38CA4C1DE6CF68002C31A9 /* 6.jpg in Resources */,
+				2DB8B7DE1DD476E8009D4632 /* LaunchScreen.storyboard in Resources */,
+				2D38CA4E1DE6CF68002C31A9 /* 8.jpg in Resources */,
+				2D38CA4D1DE6CF68002C31A9 /* 7.jpg in Resources */,
+				2DB8B7DB1DD476E8009D4632 /* Assets.xcassets in Resources */,
+				2D38CA4B1DE6CF68002C31A9 /* 5.jpg in Resources */,
+				2D38CA451DE6CF68002C31A9 /* 11.jpg in Resources */,
+				2D38CA4A1DE6CF68002C31A9 /* 4.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB8B7E21DD476E8009D4632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB8B7ED1DD476E8009D4632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DB8B7C71DD476E8009D4632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D38CA321DE6CAD1002C31A9 /* NTTableViewCell.m in Sources */,
+				2DB8B81C1DD57539009D4632 /* NavVC.m in Sources */,
+				2D38CA1F1DE5AF96002C31A9 /* NTWaterfallViewCell.m in Sources */,
+				2DB8B7D61DD476E8009D4632 /* ViewController.m in Sources */,
+				2D38CA281DE5BF2C002C31A9 /* NTNavigationController.m in Sources */,
+				2DB8B8061DD47E8F009D4632 /* NTWaterfallViewController.m in Sources */,
+				2DB8B81F1DD57568009D4632 /* PlayVC.m in Sources */,
+				2DB8B80F1DD55F15009D4632 /* NavigationControllerDelegate.m in Sources */,
+				2D38CA221DE5B24B002C31A9 /* NTHorizontalPageViewController.m in Sources */,
+				2DB8B7D31DD476E8009D4632 /* AppDelegate.m in Sources */,
+				2D38CA2E1DE685B3002C31A9 /* NTHorizontalPageViewCell.m in Sources */,
+				2D38CA251DE5BCA5002C31A9 /* UICollectionView+Extension.m in Sources */,
+				2DB8B7D01DD476E8009D4632 /* main.m in Sources */,
+				2DB8B8171DD572BC009D4632 /* NTTransition.m in Sources */,
+				2DB8B8031DD47E37009D4632 /* CHTCollectionViewWaterfallLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB8B7E01DD476E8009D4632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB8B7E91DD476E8009D4632 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB8B7EB1DD476E8009D4632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB8B7F41DD476E8009D4632 /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DB8B7E61DD476E8009D4632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DB8B7CA1DD476E8009D4632 /* 瀑布流转场 */;
+			targetProxy = 2DB8B7E51DD476E8009D4632 /* PBXContainerItemProxy */;
+		};
+		2DB8B7F11DD476E8009D4632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DB8B7CA1DD476E8009D4632 /* 瀑布流转场 */;
+			targetProxy = 2DB8B7F01DD476E8009D4632 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DB8B7DC1DD476E8009D4632 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DB8B7DD1DD476E8009D4632 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DB8B7F61DD476E8009D4632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DB8B7F71DD476E8009D4632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DB8B7F91DD476E8009D4632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2NKGXFLX4U;
+				INFOPLIST_FILE = "瀑布流转场/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dianshang.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "瀑布流转场/瀑布流转场-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2DB8B7FA1DD476E8009D4632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2NKGXFLX4U;
+				INFOPLIST_FILE = "瀑布流转场/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dianshang.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "瀑布流转场/瀑布流转场-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2DB8B7FC1DD476E8009D4632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2NKGXFLX4U;
+				INFOPLIST_FILE = "瀑布流转场Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dianshang.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/瀑布流转场.app/瀑布流转场";
+			};
+			name = Debug;
+		};
+		2DB8B7FD1DD476E8009D4632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2NKGXFLX4U;
+				INFOPLIST_FILE = "瀑布流转场Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dianshang.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/瀑布流转场.app/瀑布流转场";
+			};
+			name = Release;
+		};
+		2DB8B7FF1DD476E8009D4632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2NKGXFLX4U;
+				INFOPLIST_FILE = "瀑布流转场UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dianshang.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "瀑布流转场";
+			};
+			name = Debug;
+		};
+		2DB8B8001DD476E8009D4632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2NKGXFLX4U;
+				INFOPLIST_FILE = "瀑布流转场UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dianshang.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "瀑布流转场";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DB8B7C61DD476E8009D4632 /* Build configuration list for PBXProject "瀑布流转场" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB8B7F61DD476E8009D4632 /* Debug */,
+				2DB8B7F71DD476E8009D4632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DB8B7F81DD476E8009D4632 /* Build configuration list for PBXNativeTarget "瀑布流转场" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB8B7F91DD476E8009D4632 /* Debug */,
+				2DB8B7FA1DD476E8009D4632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DB8B7FB1DD476E8009D4632 /* Build configuration list for PBXNativeTarget "瀑布流转场Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB8B7FC1DD476E8009D4632 /* Debug */,
+				2DB8B7FD1DD476E8009D4632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DB8B7FE1DD476E8009D4632 /* Build configuration list for PBXNativeTarget "瀑布流转场UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB8B7FF1DD476E8009D4632 /* Debug */,
+				2DB8B8001DD476E8009D4632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DB8B7C31DD476E8009D4632 /* Project object */;
+}
