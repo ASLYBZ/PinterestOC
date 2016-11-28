@@ -67,29 +67,29 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "&#x7011;&#x5e03;&#x6d41;&#x8f6c;&#x573a;/NTWaterfallViewController.m"
-            timestampString = "501670850.307482"
+            filePath = "&#x7011;&#x5e03;&#x6d41;&#x8f6c;&#x573a;/NTHorizontalPageViewController.m"
+            timestampString = "501675357.68557"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "97"
-            endingLineNumber = "97"
-            landmarkName = "-viewWillAppearWithPageIndex:"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "-collectionView:cellForItemAtIndexPath:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "&#x7011;&#x5e03;&#x6d41;&#x8f6c;&#x573a;/NTTransition.m"
-            timestampString = "501671188.061239"
+            filePath = "&#x7011;&#x5e03;&#x6d41;&#x8f6c;&#x573a;/NTHorizontalPageViewCell.m"
+            timestampString = "501676391.384827"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
-            landmarkName = "-animateTransition:"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

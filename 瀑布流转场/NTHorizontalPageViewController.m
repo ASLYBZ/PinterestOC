@@ -61,7 +61,7 @@ static NSString * const reuseIdentifier = @"Cell";
     NTHorizontalPageViewCell *collectionCell = [collectionView dequeueReusableCellWithReuseIdentifier:horizontalPageViewCellIdentify forIndexPath:indexPath];
     collectionCell.imageName = self.imageNameList[indexPath.row];
 //    collectionCell
-    
+    NSLog(@"indexPath.row---->%ld    imageName---------->%@", (long)indexPath.row, self.imageNameList[indexPath.row]);
     __weak typeof(self) weakSelf = self;
     collectionCell.pullAction = ^(CGPoint offset) {
         weakSelf.pullOffset = offset;
